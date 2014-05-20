@@ -9,7 +9,7 @@
 #import "iOSViewController.h"
 
 @interface iOSViewController ()
-qqq
+
 @end
 
 @implementation iOSViewController
