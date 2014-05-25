@@ -10,6 +10,5 @@
 
 @interface iOSViewController : UIViewController
 
-///////////
 
 @end
