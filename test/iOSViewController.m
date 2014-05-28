@@ -9,8 +9,19 @@
 #import "iOSViewController.h"
 
 @interface iOSViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *NameCollege;
+
+@property (weak, nonatomic) IBOutlet UILabel *NameDep;
+
+@property (weak, nonatomic) IBOutlet UILabel *NameSub;
+
+- (IBAction)Next_setting:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *LabelCur;
+- (IBAction)AddCur:(UIButton *)sender;
 
 @end
+
+
 
 @implementation iOSViewController
 
@@ -28,4 +39,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Next_setting:(UIButton *)sender {
+}
+- (IBAction)AddCur:(UIButton *)sender {
+}
 @end
