@@ -34,6 +34,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Next_setting:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QY1-yi-00M"/>
+                                    <segue destination="w6z-9P-hzg" kind="push" id="0gr-pL-dQO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="カリキュラムがない方はこちら" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ib9-qi-N3f">
@@ -64,6 +65,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="7L6-55-1dj"/>
                     <connections>
                         <outlet property="LabelCur" destination="ib9-qi-N3f" id="7vT-YX-tYv"/>
                         <outlet property="NameCollege" destination="Z4x-6H-K2S" id="SUV-gP-H8x"/>
@@ -86,8 +88,21 @@
                     <view key="view" contentMode="scaleToFill" id="by7-5N-D2N">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uoc-sS-Zdb">
+                                <rect key="frame" x="137" y="345" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="push" id="aP1-iS-vjz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="UMX-WE-zz0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OZ8-BJ-7Vd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
