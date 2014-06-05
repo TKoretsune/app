@@ -10,9 +10,19 @@
 
 @interface iOSViewController ()
 
+@property (weak,nonatomic) IBOutlet UISegmentedControl *typeSegmentedControl;
+
+@property (weak,nonatomic) IBOutlet UIView *contentView;
+
+@property (weak,nonatomic) IBOutlet UIViewController *currentViewController;
+
+- (IBAction)segmentChange:(UISegmentedControl *)sender;
+
 @end
 
 @implementation iOSViewController
+
+
 
 - (void)viewDidLoad
 {
@@ -24,6 +34,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)returnMain:(UIStoryboardSegue *)segue {
+    
 }
 
 @end

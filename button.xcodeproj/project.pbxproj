@@ -21,6 +21,7 @@
 		9ACDAD521940E723006C6AF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACDAD341940E723006C6AF1 /* UIKit.framework */; };
 		9ACDAD5A1940E723006C6AF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDAD581940E723006C6AF1 /* InfoPlist.strings */; };
 		9ACDAD5C1940E723006C6AF1 /* buttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD5B1940E723006C6AF1 /* buttonTests.m */; };
+		9ACDAD671940E88F006C6AF1 /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD661940E88F006C6AF1 /* myViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9ACDAD571940E723006C6AF1 /* buttonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "buttonTests-Info.plist"; sourceTree = "<group>"; };
 		9ACDAD591940E723006C6AF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9ACDAD5B1940E723006C6AF1 /* buttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = buttonTests.m; sourceTree = "<group>"; };
+		9ACDAD651940E88F006C6AF1 /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
+		9ACDAD661940E88F006C6AF1 /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				9ACDAD421940E723006C6AF1 /* Main.storyboard */,
 				9ACDAD451940E723006C6AF1 /* iOSViewController.h */,
 				9ACDAD461940E723006C6AF1 /* iOSViewController.m */,
+				9ACDAD651940E88F006C6AF1 /* myViewController.h */,
+				9ACDAD661940E88F006C6AF1 /* myViewController.m */,
 				9ACDAD481940E723006C6AF1 /* Images.xcassets */,
 				9ACDAD371940E723006C6AF1 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				9ACDAD411940E723006C6AF1 /* iOSAppDelegate.m in Sources */,
 				9ACDAD3D1940E723006C6AF1 /* main.m in Sources */,
+				9ACDAD671940E88F006C6AF1 /* myViewController.m in Sources */,
 				9ACDAD471940E723006C6AF1 /* iOSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
