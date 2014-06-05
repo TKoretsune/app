@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A829366193641E500C52F70 /* SecondiOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A829365193641E500C52F70 /* SecondiOSViewController.m */; };
 		9ABF7CE6192B45B7007D2E49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7CE5192B45B7007D2E49 /* Foundation.framework */; };
 		9ABF7CE8192B45B7007D2E49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7CE7192B45B7007D2E49 /* CoreGraphics.framework */; };
 		9ABF7CEA192B45B7007D2E49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7CE9192B45B7007D2E49 /* UIKit.framework */; };
@@ -35,8 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A829364193641E500C52F70 /* SecondiOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondiOSViewController.h; sourceTree = "<group>"; };
-		9A829365193641E500C52F70 /* SecondiOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondiOSViewController.m; sourceTree = "<group>"; };
 		9ABF7CE2192B45B7007D2E49 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABF7CE5192B45B7007D2E49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9ABF7CE7192B45B7007D2E49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,8 +115,6 @@
 				9ABF7CF4192B45B7007D2E49 /* iOSAppDelegate.h */,
 				9ABF7CF5192B45B7007D2E49 /* iOSAppDelegate.m */,
 				9ABF7CF7192B45B7007D2E49 /* Main.storyboard */,
-				9A829364193641E500C52F70 /* SecondiOSViewController.h */,
-				9A829365193641E500C52F70 /* SecondiOSViewController.m */,
 				9ABF7CFA192B45B7007D2E49 /* iOSViewController.h */,
 				9ABF7CFB192B45B7007D2E49 /* iOSViewController.m */,
 				9ABF7CFD192B45B7007D2E49 /* Images.xcassets */,
@@ -257,7 +252,6 @@
 			files = (
 				9ABF7CF6192B45B7007D2E49 /* iOSAppDelegate.m in Sources */,
 				9ABF7CF2192B45B7007D2E49 /* main.m in Sources */,
-				9A829366193641E500C52F70 /* SecondiOSViewController.m in Sources */,
 				9ABF7CFC192B45B7007D2E49 /* iOSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
