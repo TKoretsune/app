@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DE27AA4194A390F0046DBF0 /* ThirdiOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE27AA3194A390F0046DBF0 /* ThirdiOSViewController.m */; };
+		0DE27AA7194A3D990046DBF0 /* Credit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DE27AA5194A3D990046DBF0 /* Credit.xcdatamodeld */; };
 		9A829366193641E500C52F70 /* SecondiOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A829365193641E500C52F70 /* SecondiOSViewController.m */; };
 		9ABF7CE6192B45B7007D2E49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7CE5192B45B7007D2E49 /* Foundation.framework */; };
 		9ABF7CE8192B45B7007D2E49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7CE7192B45B7007D2E49 /* CoreGraphics.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DE27AA0194A36830046DBF0 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		0DE27AA2194A390F0046DBF0 /* ThirdiOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdiOSViewController.h; sourceTree = "<group>"; };
+		0DE27AA3194A390F0046DBF0 /* ThirdiOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdiOSViewController.m; sourceTree = "<group>"; };
+		0DE27AA6194A3D990046DBF0 /* Credit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Credit.xcdatamodel; sourceTree = "<group>"; };
 		9A829364193641E500C52F70 /* SecondiOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondiOSViewController.h; sourceTree = "<group>"; };
 		9A829365193641E500C52F70 /* SecondiOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondiOSViewController.m; sourceTree = "<group>"; };
 		9ABF7CE2192B45B7007D2E49 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +110,7 @@
 		9ABF7CE4192B45B7007D2E49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DE27AA0194A36830046DBF0 /* libsqlite3.0.dylib */,
 				9ABF7CE5192B45B7007D2E49 /* Foundation.framework */,
 				9ABF7CE7192B45B7007D2E49 /* CoreGraphics.framework */,
 				9ABF7CE9192B45B7007D2E49 /* UIKit.framework */,
@@ -122,8 +129,11 @@
 				9A829365193641E500C52F70 /* SecondiOSViewController.m */,
 				9ABF7CFA192B45B7007D2E49 /* iOSViewController.h */,
 				9ABF7CFB192B45B7007D2E49 /* iOSViewController.m */,
+				0DE27AA2194A390F0046DBF0 /* ThirdiOSViewController.h */,
+				0DE27AA3194A390F0046DBF0 /* ThirdiOSViewController.m */,
 				9ABF7CFD192B45B7007D2E49 /* Images.xcassets */,
 				9ABF7CEC192B45B7007D2E49 /* Supporting Files */,
+				0DE27AA5194A3D990046DBF0 /* Credit.xcdatamodeld */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -258,6 +268,8 @@
 				9ABF7CF6192B45B7007D2E49 /* iOSAppDelegate.m in Sources */,
 				9ABF7CF2192B45B7007D2E49 /* main.m in Sources */,
 				9A829366193641E500C52F70 /* SecondiOSViewController.m in Sources */,
+				0DE27AA4194A390F0046DBF0 /* ThirdiOSViewController.m in Sources */,
+				0DE27AA7194A3D990046DBF0 /* Credit.xcdatamodeld in Sources */,
 				9ABF7CFC192B45B7007D2E49 /* iOSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +487,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0DE27AA5194A3D990046DBF0 /* Credit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0DE27AA6194A3D990046DBF0 /* Credit.xcdatamodel */,
+			);
+			currentVersion = 0DE27AA6194A3D990046DBF0 /* Credit.xcdatamodel */;
+			path = Credit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9ABF7CDA192B45B7007D2E49 /* Project object */;
 }
