@@ -7,20 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9ABF7CE6192B45B7007D2E49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7CE5192B45B7007D2E49 /* Foundation.framework */; };
-		9ABF7CE8192B45B7007D2E49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7CE7192B45B7007D2E49 /* CoreGraphics.framework */; };
-		9ABF7CEA192B45B7007D2E49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7CE9192B45B7007D2E49 /* UIKit.framework */; };
-		9ABF7CF0192B45B7007D2E49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF7CEE192B45B7007D2E49 /* InfoPlist.strings */; };
-		9ABF7CF2192B45B7007D2E49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF7CF1192B45B7007D2E49 /* main.m */; };
-		9ABF7CF6192B45B7007D2E49 /* iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF7CF5192B45B7007D2E49 /* iOSAppDelegate.m */; };
-		9ABF7CF9192B45B7007D2E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF7CF7192B45B7007D2E49 /* Main.storyboard */; };
-		9ABF7CFC192B45B7007D2E49 /* iOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF7CFB192B45B7007D2E49 /* iOSViewController.m */; };
-		9ABF7CFE192B45B7007D2E49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF7CFD192B45B7007D2E49 /* Images.xcassets */; };
-		9ABF7D05192B45B8007D2E49 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7D04192B45B8007D2E49 /* XCTest.framework */; };
-		9ABF7D06192B45B8007D2E49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7CE5192B45B7007D2E49 /* Foundation.framework */; };
-		9ABF7D07192B45B8007D2E49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABF7CE9192B45B7007D2E49 /* UIKit.framework */; };
-		9ABF7D0F192B45B8007D2E49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF7D0D192B45B8007D2E49 /* InfoPlist.strings */; };
-		9ABF7D11192B45B8007D2E49 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF7D10192B45B8007D2E49 /* testTests.m */; };
+		9A549082195052420078563C /* iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A549070195052420078563C /* iOSAppDelegate.m */; };
+		9A549083195052420078563C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A549071195052420078563C /* Main.storyboard */; };
+		9A549084195052420078563C /* CalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A549074195052420078563C /* CalenderViewController.m */; };
+		9A549085195052420078563C /* iOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A549076195052420078563C /* iOSViewController.m */; };
+		9A549086195052420078563C /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A549078195052420078563C /* myViewController.m */; };
+		9A549087195052420078563C /* SetTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A54907A195052420078563C /* SetTimeViewController.m */; };
+		9A549088195052420078563C /* RDVCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A54907C195052420078563C /* RDVCalendarViewController.m */; };
+		9A549089195052420078563C /* RDVCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A54907E195052420078563C /* RDVCalendarView.m */; };
+		9A54908A195052420078563C /* RDVCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A549080195052420078563C /* RDVCalendarDayCell.m */; };
+		9A54908B195052420078563C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A549081195052420078563C /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +30,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9ABF7CE2192B45B7007D2E49 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ABF7CE5192B45B7007D2E49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9ABF7CE7192B45B7007D2E49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9ABF7CE9192B45B7007D2E49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9ABF7CED192B45B7007D2E49 /* test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-Info.plist"; sourceTree = "<group>"; };
-		9ABF7CEF192B45B7007D2E49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9ABF7CF1192B45B7007D2E49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9ABF7CF3192B45B7007D2E49 /* test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Prefix.pch"; sourceTree = "<group>"; };
-		9ABF7CF4192B45B7007D2E49 /* iOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSAppDelegate.h; sourceTree = "<group>"; };
-		9ABF7CF5192B45B7007D2E49 /* iOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSAppDelegate.m; sourceTree = "<group>"; };
-		9ABF7CF8192B45B7007D2E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9ABF7CFA192B45B7007D2E49 /* iOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSViewController.h; sourceTree = "<group>"; };
-		9ABF7CFB192B45B7007D2E49 /* iOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSViewController.m; sourceTree = "<group>"; };
-		9ABF7CFD192B45B7007D2E49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9ABF7D03192B45B8007D2E49 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ABF7D04192B45B8007D2E49 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9ABF7D0C192B45B8007D2E49 /* testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTests-Info.plist"; sourceTree = "<group>"; };
-		9ABF7D0E192B45B8007D2E49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9ABF7D10192B45B8007D2E49 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		9A54906F195052420078563C /* iOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSAppDelegate.h; path = ../button/button/iOSAppDelegate.h; sourceTree = "<group>"; };
+		9A549070195052420078563C /* iOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSAppDelegate.m; path = ../button/button/iOSAppDelegate.m; sourceTree = "<group>"; };
+		9A549072195052420078563C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../button/button/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A549073195052420078563C /* CalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalenderViewController.h; path = ../button/button/CalenderViewController.h; sourceTree = "<group>"; };
+		9A549074195052420078563C /* CalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalenderViewController.m; path = ../button/button/CalenderViewController.m; sourceTree = "<group>"; };
+		9A549075195052420078563C /* iOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSViewController.h; path = ../button/button/iOSViewController.h; sourceTree = "<group>"; };
+		9A549076195052420078563C /* iOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSViewController.m; path = ../button/button/iOSViewController.m; sourceTree = "<group>"; };
+		9A549077195052420078563C /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myViewController.h; path = ../button/button/myViewController.h; sourceTree = "<group>"; };
+		9A549078195052420078563C /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myViewController.m; path = ../button/button/myViewController.m; sourceTree = "<group>"; };
+		9A549079195052420078563C /* SetTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetTimeViewController.h; path = ../button/button/SetTimeViewController.h; sourceTree = "<group>"; };
+		9A54907A195052420078563C /* SetTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetTimeViewController.m; path = ../button/button/SetTimeViewController.m; sourceTree = "<group>"; };
+		9A54907B195052420078563C /* RDVCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDVCalendarViewController.h; path = "../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarViewController.h"; sourceTree = "<group>"; };
+		9A54907C195052420078563C /* RDVCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDVCalendarViewController.m; path = "../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarViewController.m"; sourceTree = "<group>"; };
+		9A54907D195052420078563C /* RDVCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDVCalendarView.h; path = "../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarView.h"; sourceTree = "<group>"; };
+		9A54907E195052420078563C /* RDVCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDVCalendarView.m; path = "../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarView.m"; sourceTree = "<group>"; };
+		9A54907F195052420078563C /* RDVCalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDVCalendarDayCell.h; path = "../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarDayCell.h"; sourceTree = "<group>"; };
+		9A549080195052420078563C /* RDVCalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDVCalendarDayCell.m; path = "../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarDayCell.m"; sourceTree = "<group>"; };
+		9A549081195052420078563C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../button/button/Images.xcassets; sourceTree = "<group>"; };
+		9ABF7CE2192B45B7007D2E49 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = test.app; path = "/Users/koretunetakehiro/Desktop/単位app/test/build/Debug-iphoneos/test.app"; sourceTree = "<absolute>"; };
+		9ABF7D03192B45B8007D2E49 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = testTests.xctest; path = "/Users/koretunetakehiro/Desktop/単位app/test/build/Debug-iphoneos/testTests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABF7CE8192B45B7007D2E49 /* CoreGraphics.framework in Frameworks */,
-				9ABF7CEA192B45B7007D2E49 /* UIKit.framework in Frameworks */,
-				9ABF7CE6192B45B7007D2E49 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,9 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABF7D05192B45B8007D2E49 /* XCTest.framework in Frameworks */,
-				9ABF7D07192B45B8007D2E49 /* UIKit.framework in Frameworks */,
-				9ABF7D06192B45B8007D2E49 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,74 +73,25 @@
 		9ABF7CD9192B45B7007D2E49 = {
 			isa = PBXGroup;
 			children = (
-				9ABF7CEB192B45B7007D2E49 /* test */,
-				9ABF7D0A192B45B8007D2E49 /* testTests */,
-				9ABF7CE4192B45B7007D2E49 /* Frameworks */,
-				9ABF7CE3192B45B7007D2E49 /* Products */,
+				9A54906F195052420078563C /* iOSAppDelegate.h */,
+				9A549070195052420078563C /* iOSAppDelegate.m */,
+				9A549071195052420078563C /* Main.storyboard */,
+				9A549073195052420078563C /* CalenderViewController.h */,
+				9A549074195052420078563C /* CalenderViewController.m */,
+				9A549075195052420078563C /* iOSViewController.h */,
+				9A549076195052420078563C /* iOSViewController.m */,
+				9A549077195052420078563C /* myViewController.h */,
+				9A549078195052420078563C /* myViewController.m */,
+				9A549079195052420078563C /* SetTimeViewController.h */,
+				9A54907A195052420078563C /* SetTimeViewController.m */,
+				9A54907B195052420078563C /* RDVCalendarViewController.h */,
+				9A54907C195052420078563C /* RDVCalendarViewController.m */,
+				9A54907D195052420078563C /* RDVCalendarView.h */,
+				9A54907E195052420078563C /* RDVCalendarView.m */,
+				9A54907F195052420078563C /* RDVCalendarDayCell.h */,
+				9A549080195052420078563C /* RDVCalendarDayCell.m */,
+				9A549081195052420078563C /* Images.xcassets */,
 			);
-			sourceTree = "<group>";
-		};
-		9ABF7CE3192B45B7007D2E49 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9ABF7CE2192B45B7007D2E49 /* test.app */,
-				9ABF7D03192B45B8007D2E49 /* testTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9ABF7CE4192B45B7007D2E49 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9ABF7CE5192B45B7007D2E49 /* Foundation.framework */,
-				9ABF7CE7192B45B7007D2E49 /* CoreGraphics.framework */,
-				9ABF7CE9192B45B7007D2E49 /* UIKit.framework */,
-				9ABF7D04192B45B8007D2E49 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9ABF7CEB192B45B7007D2E49 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				9ABF7CF4192B45B7007D2E49 /* iOSAppDelegate.h */,
-				9ABF7CF5192B45B7007D2E49 /* iOSAppDelegate.m */,
-				9ABF7CF7192B45B7007D2E49 /* Main.storyboard */,
-				9ABF7CFA192B45B7007D2E49 /* iOSViewController.h */,
-				9ABF7CFB192B45B7007D2E49 /* iOSViewController.m */,
-				9ABF7CFD192B45B7007D2E49 /* Images.xcassets */,
-				9ABF7CEC192B45B7007D2E49 /* Supporting Files */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
-		9ABF7CEC192B45B7007D2E49 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9ABF7CED192B45B7007D2E49 /* test-Info.plist */,
-				9ABF7CEE192B45B7007D2E49 /* InfoPlist.strings */,
-				9ABF7CF1192B45B7007D2E49 /* main.m */,
-				9ABF7CF3192B45B7007D2E49 /* test-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9ABF7D0A192B45B8007D2E49 /* testTests */ = {
-			isa = PBXGroup;
-			children = (
-				9ABF7D10192B45B8007D2E49 /* testTests.m */,
-				9ABF7D0B192B45B8007D2E49 /* Supporting Files */,
-			);
-			path = testTests;
-			sourceTree = "<group>";
-		};
-		9ABF7D0B192B45B8007D2E49 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9ABF7D0C192B45B8007D2E49 /* testTests-Info.plist */,
-				9ABF7D0D192B45B8007D2E49 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,7 +156,7 @@
 				Base,
 			);
 			mainGroup = 9ABF7CD9192B45B7007D2E49;
-			productRefGroup = 9ABF7CE3192B45B7007D2E49 /* Products */;
+			productRefGroup = 9ABF7CD9192B45B7007D2E49;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -229,9 +171,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABF7CFE192B45B7007D2E49 /* Images.xcassets in Resources */,
-				9ABF7CF0192B45B7007D2E49 /* InfoPlist.strings in Resources */,
-				9ABF7CF9192B45B7007D2E49 /* Main.storyboard in Resources */,
+				9A549083195052420078563C /* Main.storyboard in Resources */,
+				9A54908B195052420078563C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +180,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABF7D0F192B45B8007D2E49 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABF7CF6192B45B7007D2E49 /* iOSAppDelegate.m in Sources */,
-				9ABF7CF2192B45B7007D2E49 /* main.m in Sources */,
-				9ABF7CFC192B45B7007D2E49 /* iOSViewController.m in Sources */,
+				9A549084195052420078563C /* CalenderViewController.m in Sources */,
+				9A549088195052420078563C /* RDVCalendarViewController.m in Sources */,
+				9A549082195052420078563C /* iOSAppDelegate.m in Sources */,
+				9A54908A195052420078563C /* RDVCalendarDayCell.m in Sources */,
+				9A549089195052420078563C /* RDVCalendarView.m in Sources */,
+				9A549086195052420078563C /* myViewController.m in Sources */,
+				9A549085195052420078563C /* iOSViewController.m in Sources */,
+				9A549087195052420078563C /* SetTimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABF7D11192B45B8007D2E49 /* testTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,28 +219,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9ABF7CEE192B45B7007D2E49 /* InfoPlist.strings */ = {
+		9A549071195052420078563C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9ABF7CEF192B45B7007D2E49 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9ABF7CF7192B45B7007D2E49 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9ABF7CF8192B45B7007D2E49 /* Base */,
+				9A549072195052420078563C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9ABF7D0D192B45B8007D2E49 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9ABF7D0E192B45B8007D2E49 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
