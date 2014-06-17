@@ -1,18 +1,18 @@
 //
-//  myViewController.m
+//  StartViewController.m
 //  button
 //
-//  Created by Takehiro Koretsune on 2014/06/06.
+//  Created by Takehiro Koretsune on 2014/06/11.
 //  Copyright (c) 2014年 是常 雄大. All rights reserved.
 //
 
-#import "myViewController.h"
+#import "StartViewController.h"
 
-@interface myViewController ()
+@interface StartViewController ()
 
 @end
 
-@implementation myViewController
+@implementation StartViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,7 +35,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)returnSetting:(UIStoryboardSegue *)segue{
+-(IBAction)returnStart1:(UIStoryboardSegue *)segue{
     
 }
 

@@ -1,5 +1,5 @@
 //
-//  iOSViewController.h
+//  CalenderViewController.h
 //  button
 //
 //  Created by Takehiro Koretsune on 2014/06/06.
@@ -7,13 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CalenderViewController.h"
 #import "RDVCalendarViewController.h"
 #import "iOSViewController.h"
 #import "RDVCalendarView.h"
 #import "RDVCalendarDayCell.h"
 #import "SetTimeViewController.h"
 
-@interface iOSViewController : UIViewController
+
+@interface CalenderViewController : RDVCalendarViewController
+{
+    
+}
+
+- (id)initRDVCalendarViewController;
+
+
 
 @end

@@ -7,6 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RDVCalendarViewController.h"
+#import "iOSViewController.h"
+#import "RDVCalendarView.h"
+#import "RDVCalendarDayCell.h"
+#import "SetTimeViewController.h"
 
 @interface iOSAppDelegate : UIResponder <UIApplicationDelegate>
 

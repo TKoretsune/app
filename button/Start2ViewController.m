@@ -1,18 +1,18 @@
 //
-//  myViewController.m
+//  Start2ViewController.m
 //  button
 //
-//  Created by Takehiro Koretsune on 2014/06/06.
+//  Created by Takehiro Koretsune on 2014/06/11.
 //  Copyright (c) 2014年 是常 雄大. All rights reserved.
 //
 
-#import "myViewController.h"
+#import "Start2ViewController.h"
 
-@interface myViewController ()
+@interface Start2ViewController ()
 
 @end
 
-@implementation myViewController
+@implementation Start2ViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,10 +35,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)returnSetting:(UIStoryboardSegue *)segue{
+-(IBAction)returnStart2:(UIStoryboardSegue *)segue{
     
 }
-
 
 /*
 #pragma mark - Navigation

@@ -7,6 +7,11 @@
 //
 
 #import "iOSViewController.h"
+#import "RDVCalendarViewController.h"
+#import "iOSViewController.h"
+#import "RDVCalendarView.h"
+#import "RDVCalendarDayCell.h"
+#import "SetTimeViewController.h"
 
 @interface iOSViewController ()
 
@@ -15,8 +20,6 @@
 @property (weak,nonatomic) IBOutlet UIView *contentView;
 
 @property (weak,nonatomic) IBOutlet UIViewController *currentViewController;
-
-- (IBAction)segmentChange:(UISegmentedControl *)sender;
 
 @end
 
@@ -34,6 +37,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)buttonDidPush
+{
+    NSLog(@"ボタンが押されました");
+    
+    // 前画面に戻る
+    [self dismissViewControllerAnimated:YES completion:^{
+        // 完了時の処理をここに書きます
+    }];
 }
 
 - (IBAction)returnMain:(UIStoryboardSegue *)segue {

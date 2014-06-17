@@ -1,18 +1,18 @@
 //
-//  myViewController.m
+//  SetTimeViewController.m
 //  button
 //
 //  Created by Takehiro Koretsune on 2014/06/06.
 //  Copyright (c) 2014年 是常 雄大. All rights reserved.
 //
 
-#import "myViewController.h"
+#import "SetTimeViewController.h"
 
-@interface myViewController ()
+@interface SetTimeViewController ()
 
 @end
 
-@implementation myViewController
+@implementation SetTimeViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,11 +34,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-- (IBAction)returnSetting:(UIStoryboardSegue *)segue{
-    
-}
-
 
 /*
 #pragma mark - Navigation
