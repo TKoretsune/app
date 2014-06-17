@@ -397,6 +397,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0DE27AA5194A3D990046DBF0 /* Credit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0DE27AA6194A3D990046DBF0 /* Credit.xcdatamodel */,
+			);
+			currentVersion = 0DE27AA6194A3D990046DBF0 /* Credit.xcdatamodel */;
+			path = Credit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9ABF7CDA192B45B7007D2E49 /* Project object */;
 }
