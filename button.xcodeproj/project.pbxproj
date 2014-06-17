@@ -22,6 +22,11 @@
 		9ACDAD5A1940E723006C6AF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDAD581940E723006C6AF1 /* InfoPlist.strings */; };
 		9ACDAD5C1940E723006C6AF1 /* buttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD5B1940E723006C6AF1 /* buttonTests.m */; };
 		9ACDAD671940E88F006C6AF1 /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD661940E88F006C6AF1 /* myViewController.m */; };
+		9ACDAD6A1940F247006C6AF1 /* SetTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD691940F247006C6AF1 /* SetTimeViewController.m */; };
+		9ACDAD981940F62E006C6AF1 /* RDVCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD931940F62E006C6AF1 /* RDVCalendarViewController.m */; };
+		9ACDAD991940F62E006C6AF1 /* RDVCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD951940F62E006C6AF1 /* RDVCalendarView.m */; };
+		9ACDAD9A1940F62E006C6AF1 /* RDVCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD971940F62E006C6AF1 /* RDVCalendarDayCell.m */; };
+		9ACDADA0194161B4006C6AF1 /* CalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD9F194161B4006C6AF1 /* CalenderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +36,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9ACDAD2C1940E723006C6AF1;
 			remoteInfo = button;
+		};
+		9ACDAD901940F5DB006C6AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ACDAD861940F5DB006C6AF1 /* RDVCalendarView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 62F77D3217BE0080009873CE;
+			remoteInfo = RDVCalendarView;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,6 +68,44 @@
 		9ACDAD5B1940E723006C6AF1 /* buttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = buttonTests.m; sourceTree = "<group>"; };
 		9ACDAD651940E88F006C6AF1 /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
 		9ACDAD661940E88F006C6AF1 /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
+		9ACDAD681940F247006C6AF1 /* SetTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTimeViewController.h; sourceTree = "<group>"; };
+		9ACDAD691940F247006C6AF1 /* SetTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTimeViewController.m; sourceTree = "<group>"; };
+		9ACDAD6C1940F5DB006C6AF1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9ACDAD6F1940F5DB006C6AF1 /* RDVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDVAppDelegate.h; sourceTree = "<group>"; };
+		9ACDAD701940F5DB006C6AF1 /* RDVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDVAppDelegate.m; sourceTree = "<group>"; };
+		9ACDAD711940F5DB006C6AF1 /* RDVExampleDayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDVExampleDayCell.h; sourceTree = "<group>"; };
+		9ACDAD721940F5DB006C6AF1 /* RDVExampleDayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDVExampleDayCell.m; sourceTree = "<group>"; };
+		9ACDAD731940F5DB006C6AF1 /* RDVExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDVExampleViewController.h; sourceTree = "<group>"; };
+		9ACDAD741940F5DB006C6AF1 /* RDVExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDVExampleViewController.m; sourceTree = "<group>"; };
+		9ACDAD751940F5DB006C6AF1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9ACDAD761940F5DB006C6AF1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9ACDAD771940F5DB006C6AF1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9ACDAD791940F5DB006C6AF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9ACDAD7A1940F5DB006C6AF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ACDAD7B1940F5DB006C6AF1 /* RDVCalendarView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RDVCalendarView-Info.plist"; sourceTree = "<group>"; };
+		9ACDAD7C1940F5DB006C6AF1 /* RDVCalendarView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RDVCalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		9ACDAD7D1940F5DB006C6AF1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9ACDAD7F1940F5DB006C6AF1 /* RDVCalendarDayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDVCalendarDayCell.h; sourceTree = "<group>"; };
+		9ACDAD801940F5DB006C6AF1 /* RDVCalendarDayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarDayCell.m; sourceTree = "<group>"; };
+		9ACDAD811940F5DB006C6AF1 /* RDVCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDVCalendarView.h; sourceTree = "<group>"; };
+		9ACDAD821940F5DB006C6AF1 /* RDVCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarView.m; sourceTree = "<group>"; };
+		9ACDAD831940F5DB006C6AF1 /* RDVCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDVCalendarViewController.h; sourceTree = "<group>"; };
+		9ACDAD841940F5DB006C6AF1 /* RDVCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarViewController.m; sourceTree = "<group>"; };
+		9ACDAD851940F5DB006C6AF1 /* RDVCalendarView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RDVCalendarView.podspec; sourceTree = "<group>"; };
+		9ACDAD861940F5DB006C6AF1 /* RDVCalendarView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RDVCalendarView.xcodeproj; sourceTree = "<group>"; };
+		9ACDAD891940F5DB006C6AF1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		9ACDAD8B1940F5DB006C6AF1 /* iPad-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-small.png"; sourceTree = "<group>"; };
+		9ACDAD8C1940F5DB006C6AF1 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
+		9ACDAD8D1940F5DB006C6AF1 /* iPhone-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-small.png"; sourceTree = "<group>"; };
+		9ACDAD8E1940F5DB006C6AF1 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		9ACDAD921940F62E006C6AF1 /* RDVCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDVCalendarViewController.h; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarViewController.h"; sourceTree = "<group>"; };
+		9ACDAD931940F62E006C6AF1 /* RDVCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDVCalendarViewController.m; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarViewController.m"; sourceTree = "<group>"; };
+		9ACDAD941940F62E006C6AF1 /* RDVCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDVCalendarView.h; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarView.h"; sourceTree = "<group>"; };
+		9ACDAD951940F62E006C6AF1 /* RDVCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDVCalendarView.m; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarView.m"; sourceTree = "<group>"; };
+		9ACDAD961940F62E006C6AF1 /* RDVCalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDVCalendarDayCell.h; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarDayCell.h"; sourceTree = "<group>"; };
+		9ACDAD971940F62E006C6AF1 /* RDVCalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDVCalendarDayCell.m; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarDayCell.m"; sourceTree = "<group>"; };
+		9ACDAD9E194161B4006C6AF1 /* CalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderViewController.h; sourceTree = "<group>"; };
+		9ACDAD9F194161B4006C6AF1 /* CalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +154,7 @@
 		9ACDAD2F1940E723006C6AF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9ACDAD6B1940F5DB006C6AF1 /* RDVCalendarView-master */,
 				9ACDAD301940E723006C6AF1 /* Foundation.framework */,
 				9ACDAD321940E723006C6AF1 /* CoreGraphics.framework */,
 				9ACDAD341940E723006C6AF1 /* UIKit.framework */,
@@ -118,10 +169,20 @@
 				9ACDAD3F1940E723006C6AF1 /* iOSAppDelegate.h */,
 				9ACDAD401940E723006C6AF1 /* iOSAppDelegate.m */,
 				9ACDAD421940E723006C6AF1 /* Main.storyboard */,
+				9ACDAD9E194161B4006C6AF1 /* CalenderViewController.h */,
+				9ACDAD9F194161B4006C6AF1 /* CalenderViewController.m */,
 				9ACDAD451940E723006C6AF1 /* iOSViewController.h */,
 				9ACDAD461940E723006C6AF1 /* iOSViewController.m */,
 				9ACDAD651940E88F006C6AF1 /* myViewController.h */,
 				9ACDAD661940E88F006C6AF1 /* myViewController.m */,
+				9ACDAD681940F247006C6AF1 /* SetTimeViewController.h */,
+				9ACDAD691940F247006C6AF1 /* SetTimeViewController.m */,
+				9ACDAD921940F62E006C6AF1 /* RDVCalendarViewController.h */,
+				9ACDAD931940F62E006C6AF1 /* RDVCalendarViewController.m */,
+				9ACDAD941940F62E006C6AF1 /* RDVCalendarView.h */,
+				9ACDAD951940F62E006C6AF1 /* RDVCalendarView.m */,
+				9ACDAD961940F62E006C6AF1 /* RDVCalendarDayCell.h */,
+				9ACDAD971940F62E006C6AF1 /* RDVCalendarDayCell.m */,
 				9ACDAD481940E723006C6AF1 /* Images.xcassets */,
 				9ACDAD371940E723006C6AF1 /* Supporting Files */,
 			);
@@ -155,6 +216,82 @@
 				9ACDAD581940E723006C6AF1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9ACDAD6B1940F5DB006C6AF1 /* RDVCalendarView-master */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDAD6C1940F5DB006C6AF1 /* .gitignore */,
+				9ACDAD6D1940F5DB006C6AF1 /* Example */,
+				9ACDAD7D1940F5DB006C6AF1 /* LICENSE */,
+				9ACDAD7E1940F5DB006C6AF1 /* RDVCalendarView */,
+				9ACDAD851940F5DB006C6AF1 /* RDVCalendarView.podspec */,
+				9ACDAD861940F5DB006C6AF1 /* RDVCalendarView.xcodeproj */,
+				9ACDAD891940F5DB006C6AF1 /* README.md */,
+				9ACDAD8A1940F5DB006C6AF1 /* Screenshots */,
+			);
+			name = "RDVCalendarView-master";
+			path = "../../../Downloads/RDVCalendarView-master";
+			sourceTree = "<group>";
+		};
+		9ACDAD6D1940F5DB006C6AF1 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDAD6E1940F5DB006C6AF1 /* Classes */,
+				9ACDAD751940F5DB006C6AF1 /* Default-568h@2x.png */,
+				9ACDAD761940F5DB006C6AF1 /* Default.png */,
+				9ACDAD771940F5DB006C6AF1 /* Default@2x.png */,
+				9ACDAD781940F5DB006C6AF1 /* InfoPlist.strings */,
+				9ACDAD7A1940F5DB006C6AF1 /* main.m */,
+				9ACDAD7B1940F5DB006C6AF1 /* RDVCalendarView-Info.plist */,
+				9ACDAD7C1940F5DB006C6AF1 /* RDVCalendarView-Prefix.pch */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		9ACDAD6E1940F5DB006C6AF1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDAD6F1940F5DB006C6AF1 /* RDVAppDelegate.h */,
+				9ACDAD701940F5DB006C6AF1 /* RDVAppDelegate.m */,
+				9ACDAD711940F5DB006C6AF1 /* RDVExampleDayCell.h */,
+				9ACDAD721940F5DB006C6AF1 /* RDVExampleDayCell.m */,
+				9ACDAD731940F5DB006C6AF1 /* RDVExampleViewController.h */,
+				9ACDAD741940F5DB006C6AF1 /* RDVExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9ACDAD7E1940F5DB006C6AF1 /* RDVCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDAD7F1940F5DB006C6AF1 /* RDVCalendarDayCell.h */,
+				9ACDAD801940F5DB006C6AF1 /* RDVCalendarDayCell.m */,
+				9ACDAD811940F5DB006C6AF1 /* RDVCalendarView.h */,
+				9ACDAD821940F5DB006C6AF1 /* RDVCalendarView.m */,
+				9ACDAD831940F5DB006C6AF1 /* RDVCalendarViewController.h */,
+				9ACDAD841940F5DB006C6AF1 /* RDVCalendarViewController.m */,
+			);
+			path = RDVCalendarView;
+			sourceTree = "<group>";
+		};
+		9ACDAD871940F5DB006C6AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDAD911940F5DB006C6AF1 /* RDVCalendarView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ACDAD8A1940F5DB006C6AF1 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDAD8B1940F5DB006C6AF1 /* iPad-small.png */,
+				9ACDAD8C1940F5DB006C6AF1 /* iPad.png */,
+				9ACDAD8D1940F5DB006C6AF1 /* iPhone-small.png */,
+				9ACDAD8E1940F5DB006C6AF1 /* iPhone.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +358,12 @@
 			mainGroup = 9ACDAD241940E723006C6AF1;
 			productRefGroup = 9ACDAD2E1940E723006C6AF1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9ACDAD871940F5DB006C6AF1 /* Products */;
+					ProjectRef = 9ACDAD861940F5DB006C6AF1 /* RDVCalendarView.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9ACDAD2C1940E723006C6AF1 /* button */,
@@ -228,6 +371,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9ACDAD911940F5DB006C6AF1 /* RDVCalendarView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RDVCalendarView.app;
+			remoteRef = 9ACDAD901940F5DB006C6AF1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9ACDAD2B1940E723006C6AF1 /* Resources */ = {
@@ -256,9 +409,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ACDAD411940E723006C6AF1 /* iOSAppDelegate.m in Sources */,
+				9ACDADA0194161B4006C6AF1 /* CalenderViewController.m in Sources */,
+				9ACDAD981940F62E006C6AF1 /* RDVCalendarViewController.m in Sources */,
 				9ACDAD3D1940E723006C6AF1 /* main.m in Sources */,
+				9ACDAD9A1940F62E006C6AF1 /* RDVCalendarDayCell.m in Sources */,
+				9ACDAD991940F62E006C6AF1 /* RDVCalendarView.m in Sources */,
 				9ACDAD671940E88F006C6AF1 /* myViewController.m in Sources */,
 				9ACDAD471940E723006C6AF1 /* iOSViewController.m in Sources */,
+				9ACDAD6A1940F247006C6AF1 /* SetTimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +459,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				9ACDAD591940E723006C6AF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9ACDAD781940F5DB006C6AF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ACDAD791940F5DB006C6AF1 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -463,6 +629,7 @@
 				9ACDAD611940E723006C6AF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ACDAD621940E723006C6AF1 /* Build configuration list for PBXNativeTarget "buttonTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +638,7 @@
 				9ACDAD641940E723006C6AF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
