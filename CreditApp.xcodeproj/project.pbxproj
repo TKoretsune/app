@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D9DF27D195184FF00D18C9F /* iOSCurriculumSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF27C195184FF00D18C9F /* iOSCurriculumSelectViewController.m */; };
 		9ACDAD311940E723006C6AF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACDAD301940E723006C6AF1 /* Foundation.framework */; };
 		9ACDAD331940E723006C6AF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACDAD321940E723006C6AF1 /* CoreGraphics.framework */; };
 		9ACDAD351940E723006C6AF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACDAD341940E723006C6AF1 /* UIKit.framework */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D9DF27B195184FF00D18C9F /* iOSCurriculumSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSCurriculumSelectViewController.h; sourceTree = "<group>"; };
+		0D9DF27C195184FF00D18C9F /* iOSCurriculumSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSCurriculumSelectViewController.m; sourceTree = "<group>"; };
 		9ACDAD2D1940E723006C6AF1 /* CreditApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACDAD301940E723006C6AF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9ACDAD321940E723006C6AF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,6 +168,8 @@
 				9ACDAD691940F247006C6AF1 /* SetTimeViewController.m */,
 				9ACDAD481940E723006C6AF1 /* Images.xcassets */,
 				9ACDAD371940E723006C6AF1 /* Supporting Files */,
+				0D9DF27B195184FF00D18C9F /* iOSCurriculumSelectViewController.h */,
+				0D9DF27C195184FF00D18C9F /* iOSCurriculumSelectViewController.m */,
 			);
 			name = CreditApp;
 			path = button;
@@ -393,6 +398,7 @@
 				9ACDAD411940E723006C6AF1 /* iOSAppDelegate.m in Sources */,
 				9ACDAD3D1940E723006C6AF1 /* main.m in Sources */,
 				9ACDAD671940E88F006C6AF1 /* myViewController.m in Sources */,
+				0D9DF27D195184FF00D18C9F /* iOSCurriculumSelectViewController.m in Sources */,
 				9ACDAD471940E723006C6AF1 /* iOSViewController.m in Sources */,
 				9ACDAD6A1940F247006C6AF1 /* SetTimeViewController.m in Sources */,
 			);
