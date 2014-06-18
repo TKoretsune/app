@@ -149,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="giU-MB-mSi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-976" y="392"/>
+            <point key="canvasLocation" x="-1039" y="392"/>
         </scene>
         <!--IOS Curriculum Regist View Controller-->
         <scene sceneID="4Qh-Fv-uku">
