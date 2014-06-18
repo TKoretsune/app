@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0D9DF27D195184FF00D18C9F /* iOSCurriculumSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF27C195184FF00D18C9F /* iOSCurriculumSelectViewController.m */; };
+		0D9DF283195210D000D18C9F /* iOSCreditInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF282195210D000D18C9F /* iOSCreditInputViewController.m */; };
+		0D9DF2861952136100D18C9F /* iOSCurriculumRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF2851952136100D18C9F /* iOSCurriculumRegistViewController.m */; };
+		0D9DF2881952155500D18C9F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DF2871952155500D18C9F /* libsqlite3.0.dylib */; };
+		0D9DF293195216C200D18C9F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF28A195216C200D18C9F /* FMDatabase.m */; };
+		0D9DF294195216C200D18C9F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF28C195216C200D18C9F /* FMDatabaseAdditions.m */; };
+		0D9DF295195216C200D18C9F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF28E195216C200D18C9F /* FMDatabasePool.m */; };
+		0D9DF296195216C200D18C9F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF290195216C200D18C9F /* FMDatabaseQueue.m */; };
+		0D9DF297195216C200D18C9F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF292195216C200D18C9F /* FMResultSet.m */; };
 		9ACDAD311940E723006C6AF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACDAD301940E723006C6AF1 /* Foundation.framework */; };
 		9ACDAD331940E723006C6AF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACDAD321940E723006C6AF1 /* CoreGraphics.framework */; };
 		9ACDAD351940E723006C6AF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACDAD341940E723006C6AF1 /* UIKit.framework */; };
@@ -46,6 +54,21 @@
 /* Begin PBXFileReference section */
 		0D9DF27B195184FF00D18C9F /* iOSCurriculumSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSCurriculumSelectViewController.h; sourceTree = "<group>"; };
 		0D9DF27C195184FF00D18C9F /* iOSCurriculumSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSCurriculumSelectViewController.m; sourceTree = "<group>"; };
+		0D9DF281195210D000D18C9F /* iOSCreditInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSCreditInputViewController.h; sourceTree = "<group>"; };
+		0D9DF282195210D000D18C9F /* iOSCreditInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSCreditInputViewController.m; sourceTree = "<group>"; };
+		0D9DF2841952136100D18C9F /* iOSCurriculumRegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSCurriculumRegistViewController.h; sourceTree = "<group>"; };
+		0D9DF2851952136100D18C9F /* iOSCurriculumRegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSCurriculumRegistViewController.m; sourceTree = "<group>"; };
+		0D9DF2871952155500D18C9F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		0D9DF289195216C200D18C9F /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../fmdb-master/src/fmdb/FMDatabase.h"; sourceTree = "<group>"; };
+		0D9DF28A195216C200D18C9F /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../fmdb-master/src/fmdb/FMDatabase.m"; sourceTree = "<group>"; };
+		0D9DF28B195216C200D18C9F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "../../fmdb-master/src/fmdb/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
+		0D9DF28C195216C200D18C9F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "../../fmdb-master/src/fmdb/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		0D9DF28D195216C200D18C9F /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "../../fmdb-master/src/fmdb/FMDatabasePool.h"; sourceTree = "<group>"; };
+		0D9DF28E195216C200D18C9F /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "../../fmdb-master/src/fmdb/FMDatabasePool.m"; sourceTree = "<group>"; };
+		0D9DF28F195216C200D18C9F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../fmdb-master/src/fmdb/FMDatabaseQueue.h"; sourceTree = "<group>"; };
+		0D9DF290195216C200D18C9F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "../../fmdb-master/src/fmdb/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		0D9DF291195216C200D18C9F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../fmdb-master/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
+		0D9DF292195216C200D18C9F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../fmdb-master/src/fmdb/FMResultSet.m"; sourceTree = "<group>"; };
 		9ACDAD2D1940E723006C6AF1 /* CreditApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACDAD301940E723006C6AF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9ACDAD321940E723006C6AF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -104,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9DF2881952155500D18C9F /* libsqlite3.0.dylib in Frameworks */,
 				9ACDAD331940E723006C6AF1 /* CoreGraphics.framework in Frameworks */,
 				9ACDAD351940E723006C6AF1 /* UIKit.framework in Frameworks */,
 				9ACDAD311940E723006C6AF1 /* Foundation.framework in Frameworks */,
@@ -145,6 +169,7 @@
 		9ACDAD2F1940E723006C6AF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D9DF2871952155500D18C9F /* libsqlite3.0.dylib */,
 				9ACDAD6B1940F5DB006C6AF1 /* RDVCalendarView-master */,
 				9ACDAD301940E723006C6AF1 /* Foundation.framework */,
 				9ACDAD321940E723006C6AF1 /* CoreGraphics.framework */,
@@ -170,6 +195,20 @@
 				9ACDAD371940E723006C6AF1 /* Supporting Files */,
 				0D9DF27B195184FF00D18C9F /* iOSCurriculumSelectViewController.h */,
 				0D9DF27C195184FF00D18C9F /* iOSCurriculumSelectViewController.m */,
+				0D9DF281195210D000D18C9F /* iOSCreditInputViewController.h */,
+				0D9DF282195210D000D18C9F /* iOSCreditInputViewController.m */,
+				0D9DF2841952136100D18C9F /* iOSCurriculumRegistViewController.h */,
+				0D9DF2851952136100D18C9F /* iOSCurriculumRegistViewController.m */,
+				0D9DF289195216C200D18C9F /* FMDatabase.h */,
+				0D9DF28A195216C200D18C9F /* FMDatabase.m */,
+				0D9DF28B195216C200D18C9F /* FMDatabaseAdditions.h */,
+				0D9DF28C195216C200D18C9F /* FMDatabaseAdditions.m */,
+				0D9DF28D195216C200D18C9F /* FMDatabasePool.h */,
+				0D9DF28E195216C200D18C9F /* FMDatabasePool.m */,
+				0D9DF28F195216C200D18C9F /* FMDatabaseQueue.h */,
+				0D9DF290195216C200D18C9F /* FMDatabaseQueue.m */,
+				0D9DF291195216C200D18C9F /* FMResultSet.h */,
+				0D9DF292195216C200D18C9F /* FMResultSet.m */,
 			);
 			name = CreditApp;
 			path = button;
@@ -396,11 +435,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ACDAD411940E723006C6AF1 /* iOSAppDelegate.m in Sources */,
+				0D9DF2861952136100D18C9F /* iOSCurriculumRegistViewController.m in Sources */,
 				9ACDAD3D1940E723006C6AF1 /* main.m in Sources */,
+				0D9DF293195216C200D18C9F /* FMDatabase.m in Sources */,
+				0D9DF283195210D000D18C9F /* iOSCreditInputViewController.m in Sources */,
+				0D9DF296195216C200D18C9F /* FMDatabaseQueue.m in Sources */,
+				0D9DF297195216C200D18C9F /* FMResultSet.m in Sources */,
+				0D9DF295195216C200D18C9F /* FMDatabasePool.m in Sources */,
 				9ACDAD671940E88F006C6AF1 /* myViewController.m in Sources */,
 				0D9DF27D195184FF00D18C9F /* iOSCurriculumSelectViewController.m in Sources */,
 				9ACDAD471940E723006C6AF1 /* iOSViewController.m in Sources */,
 				9ACDAD6A1940F247006C6AF1 /* SetTimeViewController.m in Sources */,
+				0D9DF294195216C200D18C9F /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
