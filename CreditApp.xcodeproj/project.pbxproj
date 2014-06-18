@@ -23,10 +23,6 @@
 		9ACDAD5C1940E723006C6AF1 /* buttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD5B1940E723006C6AF1 /* buttonTests.m */; };
 		9ACDAD671940E88F006C6AF1 /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD661940E88F006C6AF1 /* myViewController.m */; };
 		9ACDAD6A1940F247006C6AF1 /* SetTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD691940F247006C6AF1 /* SetTimeViewController.m */; };
-		9ACDAD981940F62E006C6AF1 /* RDVCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD931940F62E006C6AF1 /* RDVCalendarViewController.m */; };
-		9ACDAD991940F62E006C6AF1 /* RDVCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD951940F62E006C6AF1 /* RDVCalendarView.m */; };
-		9ACDAD9A1940F62E006C6AF1 /* RDVCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD971940F62E006C6AF1 /* RDVCalendarDayCell.m */; };
-		9ACDADA0194161B4006C6AF1 /* CalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDAD9F194161B4006C6AF1 /* CalenderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,23 +43,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9ACDAD2D1940E723006C6AF1 /* button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = button.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACDAD2D1940E723006C6AF1 /* CreditApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACDAD301940E723006C6AF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9ACDAD321940E723006C6AF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9ACDAD341940E723006C6AF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9ACDAD381940E723006C6AF1 /* button-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "button-Info.plist"; sourceTree = "<group>"; };
+		9ACDAD381940E723006C6AF1 /* CreditApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CreditApp-Info.plist"; sourceTree = "<group>"; };
 		9ACDAD3A1940E723006C6AF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9ACDAD3C1940E723006C6AF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9ACDAD3E1940E723006C6AF1 /* button-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "button-Prefix.pch"; sourceTree = "<group>"; };
+		9ACDAD3E1940E723006C6AF1 /* CreditApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CreditApp-Prefix.pch"; sourceTree = "<group>"; };
 		9ACDAD3F1940E723006C6AF1 /* iOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSAppDelegate.h; sourceTree = "<group>"; };
 		9ACDAD401940E723006C6AF1 /* iOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSAppDelegate.m; sourceTree = "<group>"; };
 		9ACDAD431940E723006C6AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ACDAD451940E723006C6AF1 /* iOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSViewController.h; sourceTree = "<group>"; };
 		9ACDAD461940E723006C6AF1 /* iOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSViewController.m; sourceTree = "<group>"; };
 		9ACDAD481940E723006C6AF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9ACDAD4E1940E723006C6AF1 /* buttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACDAD4E1940E723006C6AF1 /* CreditAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACDAD4F1940E723006C6AF1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9ACDAD571940E723006C6AF1 /* buttonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "buttonTests-Info.plist"; sourceTree = "<group>"; };
+		9ACDAD571940E723006C6AF1 /* CreditAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CreditAppTests-Info.plist"; sourceTree = "<group>"; };
 		9ACDAD591940E723006C6AF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9ACDAD5B1940E723006C6AF1 /* buttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = buttonTests.m; sourceTree = "<group>"; };
 		9ACDAD651940E88F006C6AF1 /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
@@ -98,14 +94,6 @@
 		9ACDAD8C1940F5DB006C6AF1 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
 		9ACDAD8D1940F5DB006C6AF1 /* iPhone-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-small.png"; sourceTree = "<group>"; };
 		9ACDAD8E1940F5DB006C6AF1 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
-		9ACDAD921940F62E006C6AF1 /* RDVCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDVCalendarViewController.h; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarViewController.h"; sourceTree = "<group>"; };
-		9ACDAD931940F62E006C6AF1 /* RDVCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDVCalendarViewController.m; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarViewController.m"; sourceTree = "<group>"; };
-		9ACDAD941940F62E006C6AF1 /* RDVCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDVCalendarView.h; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarView.h"; sourceTree = "<group>"; };
-		9ACDAD951940F62E006C6AF1 /* RDVCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDVCalendarView.m; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarView.m"; sourceTree = "<group>"; };
-		9ACDAD961940F62E006C6AF1 /* RDVCalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDVCalendarDayCell.h; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarDayCell.h"; sourceTree = "<group>"; };
-		9ACDAD971940F62E006C6AF1 /* RDVCalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDVCalendarDayCell.m; path = "../../../../Downloads/RDVCalendarView-master/RDVCalendarView/RDVCalendarDayCell.m"; sourceTree = "<group>"; };
-		9ACDAD9E194161B4006C6AF1 /* CalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderViewController.h; sourceTree = "<group>"; };
-		9ACDAD9F194161B4006C6AF1 /* CalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +123,8 @@
 		9ACDAD241940E723006C6AF1 = {
 			isa = PBXGroup;
 			children = (
-				9ACDAD361940E723006C6AF1 /* button */,
-				9ACDAD551940E723006C6AF1 /* buttonTests */,
+				9ACDAD361940E723006C6AF1 /* CreditApp */,
+				9ACDAD551940E723006C6AF1 /* CreditAppTests */,
 				9ACDAD2F1940E723006C6AF1 /* Frameworks */,
 				9ACDAD2E1940E723006C6AF1 /* Products */,
 			);
@@ -145,8 +133,8 @@
 		9ACDAD2E1940E723006C6AF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9ACDAD2D1940E723006C6AF1 /* button.app */,
-				9ACDAD4E1940E723006C6AF1 /* buttonTests.xctest */,
+				9ACDAD2D1940E723006C6AF1 /* CreditApp.app */,
+				9ACDAD4E1940E723006C6AF1 /* CreditAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,56 +151,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9ACDAD361940E723006C6AF1 /* button */ = {
+		9ACDAD361940E723006C6AF1 /* CreditApp */ = {
 			isa = PBXGroup;
 			children = (
 				9ACDAD3F1940E723006C6AF1 /* iOSAppDelegate.h */,
 				9ACDAD401940E723006C6AF1 /* iOSAppDelegate.m */,
 				9ACDAD421940E723006C6AF1 /* Main.storyboard */,
-				9ACDAD9E194161B4006C6AF1 /* CalenderViewController.h */,
-				9ACDAD9F194161B4006C6AF1 /* CalenderViewController.m */,
 				9ACDAD451940E723006C6AF1 /* iOSViewController.h */,
 				9ACDAD461940E723006C6AF1 /* iOSViewController.m */,
 				9ACDAD651940E88F006C6AF1 /* myViewController.h */,
 				9ACDAD661940E88F006C6AF1 /* myViewController.m */,
 				9ACDAD681940F247006C6AF1 /* SetTimeViewController.h */,
 				9ACDAD691940F247006C6AF1 /* SetTimeViewController.m */,
-				9ACDAD921940F62E006C6AF1 /* RDVCalendarViewController.h */,
-				9ACDAD931940F62E006C6AF1 /* RDVCalendarViewController.m */,
-				9ACDAD941940F62E006C6AF1 /* RDVCalendarView.h */,
-				9ACDAD951940F62E006C6AF1 /* RDVCalendarView.m */,
-				9ACDAD961940F62E006C6AF1 /* RDVCalendarDayCell.h */,
-				9ACDAD971940F62E006C6AF1 /* RDVCalendarDayCell.m */,
 				9ACDAD481940E723006C6AF1 /* Images.xcassets */,
 				9ACDAD371940E723006C6AF1 /* Supporting Files */,
 			);
+			name = CreditApp;
 			path = button;
 			sourceTree = "<group>";
 		};
 		9ACDAD371940E723006C6AF1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9ACDAD381940E723006C6AF1 /* button-Info.plist */,
+				9ACDAD381940E723006C6AF1 /* CreditApp-Info.plist */,
 				9ACDAD391940E723006C6AF1 /* InfoPlist.strings */,
 				9ACDAD3C1940E723006C6AF1 /* main.m */,
-				9ACDAD3E1940E723006C6AF1 /* button-Prefix.pch */,
+				9ACDAD3E1940E723006C6AF1 /* CreditApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9ACDAD551940E723006C6AF1 /* buttonTests */ = {
+		9ACDAD551940E723006C6AF1 /* CreditAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				9ACDAD5B1940E723006C6AF1 /* buttonTests.m */,
 				9ACDAD561940E723006C6AF1 /* Supporting Files */,
 			);
+			name = CreditAppTests;
 			path = buttonTests;
 			sourceTree = "<group>";
 		};
 		9ACDAD561940E723006C6AF1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9ACDAD571940E723006C6AF1 /* buttonTests-Info.plist */,
+				9ACDAD571940E723006C6AF1 /* CreditAppTests-Info.plist */,
 				9ACDAD581940E723006C6AF1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -297,9 +279,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9ACDAD2C1940E723006C6AF1 /* button */ = {
+		9ACDAD2C1940E723006C6AF1 /* CreditApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9ACDAD5F1940E723006C6AF1 /* Build configuration list for PBXNativeTarget "button" */;
+			buildConfigurationList = 9ACDAD5F1940E723006C6AF1 /* Build configuration list for PBXNativeTarget "CreditApp" */;
 			buildPhases = (
 				9ACDAD291940E723006C6AF1 /* Sources */,
 				9ACDAD2A1940E723006C6AF1 /* Frameworks */,
@@ -309,14 +291,14 @@
 			);
 			dependencies = (
 			);
-			name = button;
+			name = CreditApp;
 			productName = button;
-			productReference = 9ACDAD2D1940E723006C6AF1 /* button.app */;
+			productReference = 9ACDAD2D1940E723006C6AF1 /* CreditApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9ACDAD4D1940E723006C6AF1 /* buttonTests */ = {
+		9ACDAD4D1940E723006C6AF1 /* CreditAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9ACDAD621940E723006C6AF1 /* Build configuration list for PBXNativeTarget "buttonTests" */;
+			buildConfigurationList = 9ACDAD621940E723006C6AF1 /* Build configuration list for PBXNativeTarget "CreditAppTests" */;
 			buildPhases = (
 				9ACDAD4A1940E723006C6AF1 /* Sources */,
 				9ACDAD4B1940E723006C6AF1 /* Frameworks */,
@@ -327,9 +309,9 @@
 			dependencies = (
 				9ACDAD541940E723006C6AF1 /* PBXTargetDependency */,
 			);
-			name = buttonTests;
+			name = CreditAppTests;
 			productName = buttonTests;
-			productReference = 9ACDAD4E1940E723006C6AF1 /* buttonTests.xctest */;
+			productReference = 9ACDAD4E1940E723006C6AF1 /* CreditAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -347,7 +329,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9ACDAD281940E723006C6AF1 /* Build configuration list for PBXProject "button" */;
+			buildConfigurationList = 9ACDAD281940E723006C6AF1 /* Build configuration list for PBXProject "CreditApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -366,8 +348,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				9ACDAD2C1940E723006C6AF1 /* button */,
-				9ACDAD4D1940E723006C6AF1 /* buttonTests */,
+				9ACDAD2C1940E723006C6AF1 /* CreditApp */,
+				9ACDAD4D1940E723006C6AF1 /* CreditAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -409,11 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ACDAD411940E723006C6AF1 /* iOSAppDelegate.m in Sources */,
-				9ACDADA0194161B4006C6AF1 /* CalenderViewController.m in Sources */,
-				9ACDAD981940F62E006C6AF1 /* RDVCalendarViewController.m in Sources */,
 				9ACDAD3D1940E723006C6AF1 /* main.m in Sources */,
-				9ACDAD9A1940F62E006C6AF1 /* RDVCalendarDayCell.m in Sources */,
-				9ACDAD991940F62E006C6AF1 /* RDVCalendarView.m in Sources */,
 				9ACDAD671940E88F006C6AF1 /* myViewController.m in Sources */,
 				9ACDAD471940E723006C6AF1 /* iOSViewController.m in Sources */,
 				9ACDAD6A1940F247006C6AF1 /* SetTimeViewController.m in Sources */,
@@ -433,7 +411,7 @@
 /* Begin PBXTargetDependency section */
 		9ACDAD541940E723006C6AF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9ACDAD2C1940E723006C6AF1 /* button */;
+			target = 9ACDAD2C1940E723006C6AF1 /* CreditApp */;
 			targetProxy = 9ACDAD531940E723006C6AF1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -550,9 +528,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "button/button-Prefix.pch";
-				INFOPLIST_FILE = "button/button-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "button/CreditApp-Prefix.pch";
+				INFOPLIST_FILE = "button/CreditApp-Info.plist";
+				PRODUCT_NAME = CreditApp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -563,9 +541,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "button/button-Prefix.pch";
-				INFOPLIST_FILE = "button/button-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "button/CreditApp-Prefix.pch";
+				INFOPLIST_FILE = "button/CreditApp-Info.plist";
+				PRODUCT_NAME = CreditApp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -585,8 +563,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "buttonTests/buttonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "buttonTests/CreditAppTests-Info.plist";
+				PRODUCT_NAME = CreditAppTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -603,8 +581,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "button/button-Prefix.pch";
-				INFOPLIST_FILE = "buttonTests/buttonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "buttonTests/CreditAppTests-Info.plist";
+				PRODUCT_NAME = CreditAppTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -613,7 +591,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9ACDAD281940E723006C6AF1 /* Build configuration list for PBXProject "button" */ = {
+		9ACDAD281940E723006C6AF1 /* Build configuration list for PBXProject "CreditApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9ACDAD5D1940E723006C6AF1 /* Debug */,
@@ -622,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9ACDAD5F1940E723006C6AF1 /* Build configuration list for PBXNativeTarget "button" */ = {
+		9ACDAD5F1940E723006C6AF1 /* Build configuration list for PBXNativeTarget "CreditApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9ACDAD601940E723006C6AF1 /* Debug */,
@@ -631,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9ACDAD621940E723006C6AF1 /* Build configuration list for PBXNativeTarget "buttonTests" */ = {
+		9ACDAD621940E723006C6AF1 /* Build configuration list for PBXNativeTarget "CreditAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9ACDAD631940E723006C6AF1 /* Debug */,

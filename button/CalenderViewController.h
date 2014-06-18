@@ -7,14 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RDVCalendarViewController.h"
+//#import "RDVCalendarViewController.h"
 #import "iOSViewController.h"
-#import "RDVCalendarView.h"
-#import "RDVCalendarDayCell.h"
+//#import "RDVCalendarView.h"
+//#import "RDVCalendarDayCell.h"
 #import "SetTimeViewController.h"
 
 
-@interface CalenderViewController : RDVCalendarViewController
+@interface CalenderViewController// : RDVCalendarViewController
 {
     
 }
